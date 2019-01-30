@@ -1,0 +1,62 @@
+int choose;
+    //int iA[5];
+    //int *iptr;
+    int x;
+    //int i;
+    x=0;
+
+    //*(iA + 1)=2*iA[0];//iA[0]+iA[0]
+    //                                    //*(iA + 0)+*(iA + 0)
+    //*(iA + 2)=*(iA + 1)+*(iA + 1);
+
+
+    do {
+    
+    printf("1. Creating 2 arrays\n");
+    printf("2. Calling extractDigitOccurenceUpdateYourName()\n");
+    printf("3. Calling interleaveArrayYourName()\n");
+    printf("4. Printing array\n");
+    printf("5. Quit\n");
+
+    scanf_s("%d",&choose);
+    
+        switch(choose){
+         case 1:
+                printf("\nsize ");
+                scanf_s("%d",&x);
+                //iptr=(int *)malloc(x*sizeof(int));//requesting a storage chunk of 12 
+                //                                     //bytes; the address of this chunk 
+                //                                    //is forced to be an address of int, which is now stored in iptr.
+                //for(i=0;i<x;i++){
+                //scanf_s("%d",*iptr+i);
+                //}
+             break;
+         case 2:
+                 if(x==0){
+                 printf("\nWRONG OPTION!\n");
+                 }else{
+                 printf("run programe\n");
+                 }
+             break;
+            case 3:
+                 if(x==0){
+                 printf("\nWRONG OPTION!\n");
+                 }else{
+                 printf("run programe\n");
+                 }
+             break;
+            case 4:
+                 if(x==0){
+                 printf("\nZero Pointer(s) ...\n");
+                 }else{
+                 printf("run programe\n");
+                 }
+
+             break;
+            case 5:
+                 printf("Have fun and good bye!\n");
+             break;
+            default : 
+                 printf("WRONG OPTION!\n");
+        }
+    }while(choose !=5);

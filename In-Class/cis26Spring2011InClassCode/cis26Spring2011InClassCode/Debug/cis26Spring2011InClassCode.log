@@ -1,0 +1,21 @@
+﻿Build started 4/18/2011 4:23:04 PM.
+     1>Project "H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\cis26Spring2011InClassCode\cis26Spring2011InClassCode.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cis26Spring2011InClassCode.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt inClassCode.c
+         inClassCode.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cis26Spring2011InClassCode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.lib" /MACHINE:X86 Debug\inClassCode.obj
+         LINK : H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.exe not found or not built by the last incremental link; performing full link
+         cis26Spring2011InClassCode.vcxproj -> H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\Debug\cis26Spring2011InClassCode.exe;#1" /manifest Debug\cis26Spring2011InClassCode.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\cis26Spring2011InClassCode.unsuccessfulbuild".
+         Touching "Debug\cis26Spring2011InClassCode.lastbuildstate".
+     1>Done Building Project "H:\Classes\CIS 26\In-Class\cis26Spring2011InClassCode\cis26Spring2011InClassCode\cis26Spring2011InClassCode.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.41

@@ -1,0 +1,107 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+
+#define true 1
+
+int get4SD( void );
+
+void printEvenOdd( int );
+
+int isEvenOdd( int );
+
+int isMonday( int );
+
+int foo2( int );
+
+
+int main() {
+
+  //int x;
+
+  //int test;
+
+  //x = true; // 1 is stored in x
+
+  //x == 1; // Is x the same as 1?
+
+  //test = (!( x = 1 ) && ( x == 1 ));
+
+  //test ? printf( "\n\tIt is true!\n" ) : printf( "\n\tIt is false!\n" );
+
+  
+  //"It is a string!";
+
+  //"" ? printf( "\n\tIt is true!\n" ) : printf( "\n\tIt is false!\n" );
+
+  //printf( "\nValue of x is: %d\n", x );
+
+
+  //x = get4SD();
+
+  //printf( "Return of get4SD(): %d\n", x );
+  //printf( "The fourth significant digit is %d\n", x );
+
+  int iVar = foo2( 100 );
+
+  int iNum = 10 % ( iNum = 4 * 2 );
+
+  //int iNum = 10 + ++iNum;
+
+  printf("\niNum is %d\n", iNum );
+
+  printf("\nx equals %d\n", iVar);
+
+  //iNum = 0;
+
+  printf( "Please type an integer: ");
+  //scanf( "%d", &iNum );
+
+  iNum = iVar;
+
+  printEvenOdd( iNum );
+  
+  return 0;
+}
+
+
+void printEvenOdd( int arg ) {
+
+  int x;
+  x = arg % 2;
+
+  x ? printf( "\n%d is Odd!\n", arg ) : printf( "\n%d is Even!\n", arg );
+
+  return;
+}
+
+
+int get4SD() {
+
+  int fourthDigit = -1;
+
+  double inputValue;
+  int temp;
+
+  printf( "\nEnter a floating-point + ENTER: " );
+  scanf( "%lf", &inputValue );
+
+  //printf( "\ninputValue : %f\n", inputValue );
+
+  temp = (int) ( 10000 * inputValue );
+
+  //printf( "\ntemp : %d\n", temp );
+
+  fourthDigit = temp % 10;
+
+  return fourthDigit;
+}
+int foo2( int arg ) {
+
+  int result = 5;
+
+  return  result;
+}

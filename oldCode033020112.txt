@@ -1,0 +1,86 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+
+void addIntsWhile( int, int );
+void addIntsDo( int, int );
+void addIntsFor( int, int );
+
+int main() {
+
+	int iStart = 0;
+	int iFinish = 0;
+
+	printf( "Please enter a starting value: " );
+	scanf( "%d", &iStart );
+
+	printf( "\n\nPlease enter an ending value: " );
+	scanf( "%d", &iFinish );
+
+	//addIntsWhile( iStart, iFinish );
+	addIntsDo( iStart, iFinish );
+	addIntsFor(iStart, iFinish );
+
+  
+   return 0;
+}
+// A For loop is a post-test type
+void addIntsFor( int arg1, int arg2 ) {
+	int temp;
+	int total;
+	int i;
+
+	printf( "\nRunning addIntsFor( )\n" );
+
+	/* Order of operations:
+	1) 'temp = 0, i = arg1, total = arg2'
+	2) 'i <= total'
+	3) 'temp += i'
+	4) 'i++'
+	*/
+	for ( temp = 0, i = arg1, total = arg2; i <= total; i++ ) {
+		temp += i;
+		printf( "\nAdding %d, the total value is now %d\n\n", i, temp );
+	}
+
+	printf( "\nThe final value is %d\n.", temp );
+
+	return;
+}
+// A Do-While loop is a pre-test type
+void addIntsDo( int arg1, int arg2 ) {
+	int temp = 0;
+
+	printf( "\nRunning addIntsDo( )\n" );
+
+	do {
+		temp += arg1;
+		arg1++;
+
+		printf( "\nAdding %d, the total value is now %d\n\n", arg1, temp );
+	} while ( arg1 <= arg2 );
+
+	printf( "\nThe final value is %d\n.", temp );
+
+	return;
+}
+// A While loop is a pre-test type
+void addIntsWhile( int arg1, int arg2 ) {
+	int temp = 0;
+
+	printf( "\nRunning addIntsWhile( )\n" );
+	
+	while ( arg1 <= arg2 ) {
+		temp += arg1;
+		arg1++;
+
+		printf( "\nAdding %d, the total value is now %d\n\n", arg1, temp );
+	}
+
+	printf( "\nThe final value is %d\n.", temp );
+
+	return;
+}

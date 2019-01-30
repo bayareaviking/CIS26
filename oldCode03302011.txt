@@ -1,0 +1,99 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+
+void selectQuit( char );
+
+void selectQuit2( int );
+
+double printSorted3( int, int, int );
+
+double printSorted4( int, int, int, int );
+
+int main() {
+
+  //char ch;
+
+  //int input = 0;
+
+  //int option;
+
+  double startMoney;
+
+  printf( "Enter the initial amount: " );
+  scanf( "%lf", &startMoney );
+
+  while ( startMoney > 0 ) {
+    printf( "\nSpend $5.00 or all if less than $5.00\n" );
+
+    if ( startMoney > 5.0 ) {
+      startMoney -= 5.0;
+    else {
+      startMoney = 0.0;
+    }
+  }
+
+  /*
+  switch ( option ) {
+
+    case 1:
+      printf( "\nCalling printSorted3(). . . \n" );
+      input = printSorted3( 45, -8, 180 );
+      break;
+    case 2:
+      printf( "\Calling printSorted4(). . . \n" );
+      input = printSorted4( 45, -8, -9, 180 );
+      break;
+    default:
+      printf( "\nInvalid option!\n" );
+      break;
+  }
+
+  printf( "\nThe average is %d.\n", input );
+  */
+
+  return 0;
+}
+double printSorted3( int arg1, int arg2, int arg3 ) {
+
+  printf( "Calling printSorted3. . . \n" );
+
+  return ( arg1 + arg2 + arg3 ) / 3.0;
+}
+double printSorted4( int arg1, int arg2, int arg3, int arg4 ) {
+
+  printf( "Calling printSorted4. . . \n" );
+
+  return ( arg1 + arg2 + arg3 + arg4 ) / 4.0;
+}
+
+void selectQuit2( int arg ) {
+
+  switch( arg ) {
+    case -1:
+      printf( "Quit with -1. . .\n" );
+      break;
+    default:
+      printf( "Do something else. . . \n" );
+  }
+
+  return;
+}
+void selectQuit( char arg ) {
+
+  switch( arg ) {
+    case 'q':
+      printf( "Quitting with 'q'. . . \n" );
+      break;
+    case 'Q':
+      printf( "Quitting with 'Q'. . . \n" );
+      break;
+    default:
+      printf( "Do some more work!\n" );
+  }
+
+  return;
+}

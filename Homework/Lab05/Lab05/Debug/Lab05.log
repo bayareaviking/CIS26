@@ -1,0 +1,21 @@
+﻿Build started 4/13/2011 5:25:50 PM.
+     1>Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Lab05\Lab05.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lab05.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cis26Spring2011MarcusLarssonLab5Ex1.c
+         cis26Spring2011MarcusLarssonLab5Ex1.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab05.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.lib" /MACHINE:X86 Debug\cis26Spring2011MarcusLarssonLab5Ex1.obj
+         LINK : C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.exe not found or not built by the last incremental link; performing full link
+         Lab05.vcxproj -> C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Debug\Lab05.exe;#1" /manifest Debug\Lab05.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab05.unsuccessfulbuild".
+         Touching "Debug\Lab05.lastbuildstate".
+     1>Done Building Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab05\Lab05\Lab05.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

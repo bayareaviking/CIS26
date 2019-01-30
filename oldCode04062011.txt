@@ -1,0 +1,38 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+
+int determineMissingInt( void );
+
+int main() {
+	int sum;
+
+	sum = determineMissingInt( 4 );
+
+	printf( "\nMissing int is %d\n", sum );
+
+
+	return 0;
+}
+int determineMissingInt( void ) {
+	
+	int missingValue;
+
+	int counter;
+
+	int value;
+	int total;
+
+	for ( counter = 0, total = 0; counter < 9; counter++ ) {
+		printf( "\nEnter an int: " );
+		scanf( "%d", &value );
+
+		total += value;
+
+		missingValue = (10 * ( 10 + 1 ) ) / 2 - total;	
+	
+	return missingValue;
+}

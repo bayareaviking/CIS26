@@ -1,0 +1,64 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//void swap( int, int );
+
+int main() {
+	/*
+	int a;
+	int b;
+	a = 5;
+	b = 10;
+
+	printf("\nBefore swap(): \na = %d\nb = %d\n", a, b );
+
+	swap( &a, &b );
+	
+	printf("\nAfter swap(): \na = %d\nb = %d\n\n", a, b );
+	*/
+
+	// Declaring variables
+	int* array;
+	int n;
+	int i;
+
+	// Entering the number of indexes in dynamic array
+	printf( "Enter the number of elements: " );
+	scanf( "%d", &n );
+
+	// Creating the dynamic array
+	array = ( int* ) malloc( n * sizeof(int) );
+	for ( i = 0; i < n; i++ ) {
+		printf( "Enter number %d: ", i );
+
+		// Entering user data into each array index
+		scanf( "%d", &array[i] );
+	}
+
+	// Printing out the results
+	printf( "\nThe Dynamic Array is: \n" );
+	for ( i = 0; i < n; i++ ) {
+		printf( "The value of %d is %d\n", i, array[i] );
+	}
+	printf( "Size = %d\n", i );
+
+	free ( array );
+
+
+	return 0;
+}
+/*
+void swap( int *arg1, int *arg2 ) {
+	int temp;
+	temp = *arg1;
+	*arg1 = *arg2;
+	*arg2 = temp;
+
+	return;
+}
+*/

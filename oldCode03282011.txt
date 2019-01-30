@@ -1,0 +1,57 @@
+/**
+  * Program Name: cis26Spring2011InClass.c
+  * Written By: Marcus Larsson
+  */
+
+#include <stdio.h>
+
+void compareIntegerSizes( int, int );
+
+int getLargerOf2Int( int, int );
+
+int main() {
+
+  int iVar1 = 1;
+  int iVar2 = 2;
+  int x;
+
+  printf( "\nPlease enter an integer: " );
+  scanf( "%d", &iVar1 );
+
+  printf( "\nPlease enter another integer: " );
+  scanf( "%d", &iVar2 );
+
+  //compareIntegerSizes( iVar1, iVar2 );  
+
+  x = getLargerOf2Int( iVar1, iVar2 );
+
+  //x = getLargerOf2Int( 15, 2000 );
+
+  printf( "\nThe larger value is %d\n", x );
+
+ 
+  return 0;
+}
+void compareIntegerSizes( int arg1, int arg2 ) {
+
+  if ( arg1 > arg2 ) {
+    printf( "\nThe first number, %d, is larger than the second number, %d!\n", arg1, arg2 ); 
+  } else {
+    printf( "\nThe second number (%d), is larger than the first, (%d)!\n", arg2, arg1 );
+  }
+
+  return;
+}
+int getLargerOf2Int( int arg1, int arg2 ) {
+
+  int temp;
+
+  if ( arg1 >= arg2 ) {
+    temp = arg1;
+  } 
+  if ( arg2 > arg1 ) {
+    temp = arg2;
+  }
+
+  return temp;
+}

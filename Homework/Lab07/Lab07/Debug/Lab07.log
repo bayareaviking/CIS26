@@ -1,0 +1,20 @@
+﻿Build started 4/18/2011 4:46:54 PM.
+     1>Project "C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Lab07\Lab07.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Lab07.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cis26Spring2011MarcusLarssonLab7Ex1.c
+         cis26Spring2011MarcusLarssonLab7Ex1.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Debug\Lab07.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab07.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Debug\Lab07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Debug\Lab07.lib" /MACHINE:X86 Debug\cis26Spring2011MarcusLarssonLab7Ex1.obj
+         Lab07.vcxproj -> C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Debug\Lab07.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Debug\Lab07.exe;#1" /manifest Debug\Lab07.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab07.unsuccessfulbuild".
+         Touching "Debug\Lab07.lastbuildstate".
+     1>Done Building Project "C:\Users\marcus\Documents\My Dropbox\Documents\School Stuff\CIS 26\Homework\Lab07\Lab07\Lab07.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
